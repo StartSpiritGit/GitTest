@@ -12,7 +12,7 @@ void GetUserPrintNum(int* Arry,int len );
 int main()
 {
 
-	int SourArry[ARRY_LENTH];// , DestionArry[ARRY_LENTH], Len;
+	int SourArry[ARRY_LENTH];
 	
 	GetUserPrintNum(SourArry , ARRY_LENTH);
 
