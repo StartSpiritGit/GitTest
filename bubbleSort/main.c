@@ -68,7 +68,7 @@ void GetUserPrintNum(int* Arry, int len)
 	{
 		printf("请输入要排序的整数数字(每次一个,以回车结束)\n");
 		scanf("%d", &Arry[i]);
-		printf("这是第 %d 个数字，还有 %d 个数字待输入\n", i + 1, len - 1 - i);
+		printf("这是第 %d 个数字，还有 %d 个数字待输入\n", i + 1, len - i - 1);
 		i++;
 
 	} while (i < len);
